@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
     <!--prism CSS-->
     <link  type="text/css" href="css/prism.css" rel="stylesheet" /> 
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=PT+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,11 +28,11 @@
                         <a href="#!" class="brand-logo">App Gestion Compte Administratif </a>
                         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="#introduction">introduction</a></li>
+                            <li><a href="#introduction">Introduction</a></li>
                             <li><a href="#application">Application</a></li>
-                            <li><a href="#bdd">Base De Données</a></li>
+                            <li><a href="#bdd">Base de données</a></li>
                             <li><a href="#interface">Interface</a></li>
-                            <li><a href="#logiciel">Logiciel</a></li>
+                            <li><a href="#logiciel">BDD et Interface</a></li>
                         </ul>
                     </div>
                 </div>
@@ -37,17 +40,17 @@
         </div>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#introduction">introduction</a></li>
-            <li><a href="#application">Base De Données</a></li>
-            <li><a href="#bdd">Implementation</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#application">Application</a></li>
+            <li><a href="#bdd">Base de données</a></li>
             <li><a href="#interface">Interface</a></li>
-            <li><a href="#logiciel">Logiciel</a></li>
+            <li><a href="#logiciel">BDD et Interface</a></li>
         </ul>
     </header>
     <section id="introduction" class="section container scrollspy">
         <h1>Introduction</h1>
         <p>Pour mettre en application les différents cours, 
-            nous devons créer un logiciel de gestion administratif, 
+            nous devons créer un logiciel de gestion administrative, 
             permettant d’afficher, d’ajouter, supprimer et 
             modifier des données d’une base de données avec une sécurité 
             par mot de passe lors de certaines opérations.</p>
@@ -81,7 +84,126 @@
                     envoyer les requêtes reçues via l’interface au serveur, récupérer et afficher les résultats.</p>
             </li>
         </ul>
-        
+        <h3>Partage des tâches</h3>
+        <table >
+            <thead>
+                <th >Tâche</th>
+                <th class="check">Damien</th>
+                <th class="check">Dang</th>
+                <th class="check" >Matthieu</th>
+                <th class="check">Stanley</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Standardisation de la base de données</td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Implémentation des tables</td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                </tr>
+                <tr>
+                    <td>Interface</td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                </tr>
+                <tr>
+                    <td>Ajouter un enregistrement</td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Modifier un enregistrement</td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Supprimer un enregistrement</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Recherche par code chapitre/article</td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                </tr>
+                <tr>
+                    <td>Recherche avancées</td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"></td>
+                    <td class="check"><i class="material-icons">close</i></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Livrables</h3>
+        <table >
+            <thead>
+                <th>Tâche</th>
+                <th class="check">Livrable</th>
+                <th class="check">Non-Livrable</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ajouter un enregistrement</td>
+                    <td class="check"><i class="material-icons">check</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Modifier un enregistrement</td>
+                    <td class="check"><i class="material-icons">check</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Supprimer un enregistrement</td>
+                    <td class="check"><i class="material-icons">check</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Recherche par code chapitre/article</td>
+                    <td class="check"><i class="material-icons">check</i></td>
+                    <td class="check"></td>
+                </tr>
+                <tr>
+                    <td>Recherche avancées</td>
+                    <td class="check"><i class="material-icons">check</i></td>
+                    <td class="check"></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Difficultés rencontrés</h3>
+            <ul class="browser-default">
+                <li>Trouver une clé lors de la standardisation (résolution: utilisation d'une clé primaire "imaginaire")</li>
+                <li>La prise en main de java Swing</li>
+            </ul>
+        <h3>Utilisation de l'application</h3>
+        <p>Télécharger le fichier zip à ouvrir avec Eclispse ou un autre IDE pour Java : <a href="contenu/interface_sgbd.zip">Telecharger</a></p>
+        <p></p>Lors de la première utilisation ouvrir le fichier "conf.properties" pour entrer le login et le mot de passe à la base de oracle</p>
+        <p></p>Mot de passe pour l'ajout/supression/Modification : 1234</p>
+
+        <h3>Outils utilisés</h3>
+        <ul class="browser-default">
+            <li><a href="https://www.oracle.com/fr/database/technologies/appdev/jdbc-downloads.html" target="_blank">JDBC</a> Driver pour la connexion à la base de données d'oracle</li>
+            <li><a href="https://www.eclipse.org/downloads/" target="_blank">Eclipse</a> pour l'IDE</li>
+            <li><a href="https://www.invisionapp.com/studio" target="_blank">InVision</a> pour la création du mockup</li>
+            <li><a href="https://www.oracle.com/fr/tools/downloads/sqldev-v192-downloads.html" target="_blank"> Sql Developer</a> pour la gestion de la base de données</li>
+        </ul>
     </section>
 
     <!-- parallax -->
@@ -94,7 +216,7 @@
     <section id="application" class="section container scrollspy">
        <h1>L'application</h1>
        <h3>Création de la base de données</h3>
-       <p>Pour la création de la base on nous a données un document .csv avec toutes données nécessaire pour construire/standardiser notre base de données en mettant en application les méthodes vu en cours.</p>
+       <p>Pour la création de la base on nous a donnés un document *.csv avec toutes données nécessaires pour construire/standardiser notre base de données en mettant en application les méthodes vues en cours.</p>
        <div class="table_container">
         <table id="example" class="compact stripe" style="width:100%">
                 <thead>
@@ -199,7 +321,7 @@ R1(CodeArticle,LibelleArticle)      R’(ID,EntitéFinanciereProgramme , Depense
 
     <section id="bdd" class="section container scrollspy">
         
-        <h4>Implementation de la base de données</h4>
+        <h4>Implémentation de la base de données</h4>
         <h5>Création des tables</h5>
         <pre>
             <code class="language-sql">
@@ -349,45 +471,45 @@ Class Database{
 
     <section id="interface" class="section container scrollspy">
         <h4>Interface Graphique</h4>
-
-        <p>Class MainJFrame.java (JFrame): Conteneur pour les JPanel</p>
+        <h5>Version web fait par Dang : <a href="https://supersieu.github.io/ConceptAdm/" target="_blank">Site</a></h5>
+        <h5>Mockup fait avec inVision par Stanley</h5>
+        
         <div class="container_image">
-            <div class="image1">
-                <img src="contenu/images/Sans titre.png" />
+            <div class="image_text pt100">
+                <p>Class MainJFrame.java (JFrame): Conteneur pour les JPanel</p>
             </div>
             <div class="image2">
-                <img src="contenu/images/1.png" />
+                <img class="materialboxed" src="contenu/images/1.png" />
             </div>
         </div>
-        <p>Class RechercheC.java (JPanel) : l’affichage des données en fonction du code article ou du code chapitre</p>
+        
         <div class="container_image">
-            <div class="image1">
-                <img src="contenu/images/2.png" />
+            <div  class="image_text pt100">
+                <p>Class RechercheC.java (JPanel) : l’affichage des données en fonction du code article ou du code chapitre</p>
             </div>
             <div class="image2">
-                <img src="contenu/images/2.1.png" />
+                <img class="materialboxed" src="contenu/images/2.1.png" />
             </div>
         </div>
-        <p>Class RechercheA.java (JPanel) : affichages des données après la précisons de certain critères</p>
+        
         <div class="container_image">
-            <div class="image1">
-                <img src="contenu/images/3.png" />
+            <div  class="image_text pt100">
+                <p>Class RechercheA.java (JPanel) : affichages des données après précisons de certain critères</p>
             </div>
             <div class="image2">
-                <img src="contenu/images/3_2.png" />
+                <img class="materialboxed" src="contenu/images/3_2.png" />
             </div>
         </div>
-        <p>Class CRUD (JPanel): Conteneur pour les class Add_panel.java, Modif_panel.java, Delete_panel.java</p>
-        <p> Class Add_panel.java (JPanel) : permet l’ajout de données dans la BDD</p>
-        <p> Class Modif_panel.java (JPanel) : permet la modification de données dans la BDD</p>
-        <p> Class Delete_panel.java (JPanel) : permet la supression de données dans la BDD</p>
             
         <div class="container_image">
-            <div class="image1">
-                <img src="contenu/images/4.png" />
+            <div  class="image_text ">
+                <p>Class CRUD (JPanel): Conteneur pour les class Add_panel.java, Modif_panel.java, Delete_panel.java</p>
+                <p> Class Add_panel.java (JPanel) : permet l’ajout de données dans la BDD</p>
+                <p> Class Modif_panel.java (JPanel) : permet la modification de données dans la BDD</p>
+                <p> Class Delete_panel.java (JPanel) : permet la supression de données dans la BDD</p>
             </div>
             <div class="image2">
-                <img src="contenu/images/4.1.png" />
+                <img class="materialboxed" src="contenu/images/4.1.png" />
             </div>
         </div>
     </section>
@@ -400,9 +522,296 @@ Class Database{
     </div>
 
     <section id="logiciel" class="section container scrollspy">
+        <h4>Association Base de données/Interface</h4>
         
+        <div class="container_image">
+        <h5>Recherche par code</h5>
+        <div class="container_image">
+            <div class="image_text pt100">
+                <p> On fonction du radio button choisie on remplie la JCombobox avec les codes article ou codes chapitre et en fonction du code choisie on affiche 
+                le libéllé correspondant et on remplie le tableau avec les infos correspondantes</p>
+            </div>
+            <div  class="image_code">
+                <img class="materialboxed" src="contenu/images/RechercheC.png" />
+            </div>
+        </div>
+            <div style="width:90%" class="">
+               <pre >
+                   <code class="language-java">
+public ResultSet querySelectbyChapitre(int chapitre) {
+    String sql = "SELECT c.id,e.ENTITEFINANCIEREPROGRAMME,e.nomenclaturecomptable,c.depenses_recettes,c.investissement_fonctionnement"
+    + ",c.codechapitre,ch.libellechapitre,c.codearticle, a.libellearticle,c.codepresentationcroisee,p.libellepresentationcroisee,"
+    + "c.ordre_reel,c.montantrealise FROM compte_adm_tls1 c,article a,chapitre ch,entitefinanciereprogramme e ,presentationcroisee p"
+    + " WHERE c.codechapitre="+chapitre
+    + " and c.codearticle = a.codearticle"
+    + " and c.codechapitre = ch.codechapitre"
+    + " and c.entitefinanciereprogramme = e.ENTITEFINANCIEREPROGRAMME"
+    + " and c.codepresentationcroisee = p.codepresentationcroisee ORDER BY c.id";
+    return this.executerRequete(sql);
+}
+
+public ResultSet querySelectbyArticle(int article) {
+    String sql = "SELECT c.id,e.ENTITEFINANCIEREPROGRAMME,e.nomenclaturecomptable,c.depenses_recettes,c.investissement_fonctionnement,"
+    + " c.codechapitre,ch.libellechapitre,c.codearticle, a.libellearticle,c.codepresentationcroisee,p.libellepresentationcroisee,c.ordre_reel,c.montantrealise "
+    + "FROM compte_adm_tls1 c,article a,chapitre ch,entitefinanciereprogramme e ,presentationcroisee p"
+    + " WHERE c.codearticle="+article
+    + " and c.codearticle = a.codearticle"
+    + " and c.codechapitre = ch.codechapitre"
+    + " and c.entitefinanciereprogramme = e.ENTITEFINANCIEREPROGRAMME"
+    + " and c.codepresentationcroisee = p.codepresentationcroisee ORDER BY c.id";
+    return this.executerRequete(sql);
+}            
+
+//Recherche du libelle
+public ResultSet querySelectWhereColonneInt(String nomTable,String colonne ,int num) {
+    String sql= "SELECT * FROM "+ nomTable + " WHERE "+ colonne+ "="+num;
+    return this.executerRequete(sql);
+}
+
+//Somme des depense ou recette pour Article même code pour chapitre
+public float querySelectbyArticleSum(int article, String d_r) {
+    float result = 0;
+    //connexionDatabase();
+    String sql = "SELECT SUM(c.montantrealise)"
+            +" FROM compte_adm_tls1 c,article a,chapitre ch,entitefinanciereprogramme e ,presentationcroisee p"
+            +" WHERE c.codearticle="+article
+            +" and c.depenses_recettes= '"+d_r+"'"
+            +" and c.codearticle = a.codearticle"
+            +" and c.codechapitre = ch.codechapitre"
+            +" and c.entitefinanciereprogramme = e.ENTITEFINANCIEREPROGRAMME"
+            +" and c.codepresentationcroisee = p.codepresentationcroisee ORDER BY c.id";
+    ResultSet rs = executerRequete(sql);
+    try {	
+        while (rs.next()) {
+            result = rs.getFloat(1);
+        }
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
+    return result;
+}
+                   </code>
+               </pre>
+            </div>
+        </div>
+        <div class="container_image">
+            <h5>Recherche Avancée</h5>
+            <div style="width:90%" class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/RechercheA1.png" />
+                    <figcaption >Image 1 : Sélection d'un code aprés chargement de la JCombobox dans l'image on sélectionne le code chapitre 11 donc la JTable 
+                        est remplie avec les enregistrement ayant le code chapitre 11
+                        Code sql retourné par la fonction <a href="#code_rech">filterSearch()</a></p>
+                    
+                
+
+                <pre >
+                    <code  class="language-sql">
+SELECT 
+c.id, e.ENTITEFINANCIEREPROGRAMME,e.nomenclaturecomptable,c.depenses_recettes,c.investissement_fonctionnement,c.codechapitre,
+ch.libellechapitre,c.codearticle, a.libellearticle,c.codepresentationcroisee,p.libellepresentationcroisee,	c.ordre_reel,c.montantrealise 
+FROM compte_adm_tls1 c 
+INNER  JOIN article a ON a.codearticle = c.codearticle 
+INNER  JOIN chapitre ch ON ch.codechapitre = c.codechapitre 
+INNER  JOIN entitefinanciereprogramme e ON e.ENTITEFINANCIEREPROGRAMME = c.ENTITEFINANCIEREPROGRAMME 
+INNER  JOIN presentationcroisee p ON p.codepresentationcroisee = c.codepresentationcroisee   
+WHERE  c.codechapitre = 11 order by c.id
+                    </code>
+                </pre>
+            </figcaption>
+        </figure>
+            </div>
+            <div style="width:90%" class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/RechercheA2.png" />
+                    <figcaption>Image 2 : On ajoute le code Presentation croisee 20 
+                        Code sql retourné par la fonction <a href="#code_rech">filterSearch()</a>
+                    
+                
+                 <pre>
+                    <code  class="language-sql">
+SELECT 
+c.id, e.ENTITEFINANCIEREPROGRAMME,e.nomenclaturecomptable,c.depenses_recettes,c.investissement_fonctionnement,c.codechapitre,
+ch.libellechapitre,c.codearticle, a.libellearticle,c.codepresentationcroisee,p.libellepresentationcroisee,	c.ordre_reel,c.montantrealise 
+FROM compte_adm_tls1 c 
+INNER  JOIN article a ON a.codearticle = c.codearticle 
+INNER  JOIN chapitre ch ON ch.codechapitre = c.codechapitre 
+INNER  JOIN entitefinanciereprogramme e ON e.ENTITEFINANCIEREPROGRAMME = c.ENTITEFINANCIEREPROGRAMME 
+INNER  JOIN presentationcroisee p ON p.codepresentationcroisee = c.codepresentationcroisee   
+WHERE  c.codechapitre = 11 and c.codepresentationcroisee = 20 order by c.id
+                    </code>
+                </pre>
+            </figcaption>
+        </figure>
+            </div>
+            <div style="width:90%" class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/RechercheA3.png" />
+                    <figcaption>Image 3 : On ajoute un montant maximum à l'aide du JSlider puis on appuie sur le bouton filterSearch
+                        Code sql retourné par la fonction <a href="#code_rech">filterSearch()</a>
+                   
+                
+                <pre>
+                    <code  class="language-sql">
+SELECT 
+c.id, e.ENTITEFINANCIEREPROGRAMME,e.nomenclaturecomptable,c.depenses_recettes,c.investissement_fonctionnement,c.codechapitre,
+ch.libellechapitre,c.codearticle, a.libellearticle,c.codepresentationcroisee,p.libellepresentationcroisee,	c.ordre_reel,c.montantrealise 
+FROM compte_adm_tls1 c 
+INNER  JOIN article a ON a.codearticle = c.codearticle 
+INNER  JOIN chapitre ch ON ch.codechapitre = c.codechapitre 
+INNER  JOIN entitefinanciereprogramme e ON e.ENTITEFINANCIEREPROGRAMME = c.ENTITEFINANCIEREPROGRAMME 
+INNER  JOIN presentationcroisee p ON p.codepresentationcroisee = c.codepresentationcroisee   
+WHERE  c.codechapitre = 11 and c.codepresentationcroisee = 20  and  c.montantrealise < 15000 order by c.id
+                    </code>
+                </pre>
+            </figcaption>  
+        </figure>
+            </div>
+            <div style="width:90%" class="">
+                <p>A chaque JCombobox remplie on ajoute une condition a la requête</p>
+                <pre id="code_rech">
+                    <code class="language-java">
+public ResultSet filterSearch(Map<String, String> list) {
+    int i=0;
+    int max = 0;
+    int min = 0;
+    boolean test = false;
+    String sql = "SELECT c.id,e.ENTITEFINANCIEREPROGRAMME,e.nomenclaturecomptable,c.depenses_recettes,c.investissement_fonctionnement,c.codechapitre,ch.libellechapitre,c.codearticle, a.libellearticle,c.codepresentationcroisee,p.libellepresentationcroisee,"
+    + " c.ordre_reel,c.montantrealise FROM compte_adm_tls1 c"
+    + " INNER  JOIN article a ON a.codearticle = c.codearticle"
+    + " INNER  JOIN chapitre ch ON ch.codechapitre = c.codechapitre"
+    + " INNER JOIN entitefinanciereprogramme e ON e.ENTITEFINANCIEREPROGRAMME = c.ENTITEFINANCIEREPROGRAMME"
+    + " INNER  JOIN presentationcroisee p ON p.codepresentationcroisee = c.codepresentationcroisee  ";
+    
+    for (Map.Entry<String, String> entry : list.entrySet()) {
+    if (i == 0 && entry.getValue() != "" && entry.getValue() != "0" ) {
+                    sql+=" WHERE ";
+        }
+        if (entry.getKey().startsWith("code")  && entry.getKey()!= "max" && entry.getKey() != "min") {
+            if (Integer.valueOf(entry.getValue()) != 0) {
+                test =true;
+                    sql+=" c."+ entry.getKey() +" = "+Integer.valueOf(entry.getValue());   
+    }
+                    
+    }
+    if (!(entry.getKey().startsWith("code")) && entry.getKey()!= "max" && entry.getKey() != "min") {
+    if (!entry.getValue().isEmpty()) {
+                test =true;
+                    sql+=" c."+entry.getKey() +" = '"+entry.getValue()+"'";	
+                }
+        }                    
+    if ( i < list.size()-1 && entry.getValue() != "" && entry.getValue() != "0") {
+            if (test && !entry.getValue().isEmpty() && entry.getValue() != "0") {
+                sql+=" and ";
+                }
+                        test = false; 	
+    }
+    if (entry.getKey() == "max" ) {
+    max = Integer.valueOf(entry.getValue());
+        }
+    if (entry.getKey() == "min" ) {
+            min = Integer.valueOf(entry.getValue());
+        }
+        i++;
+    }
+    if (test == true && (max >0 || min>0)) {
+                    sql+=" and ";
+    }
+    if (max >0 && min > 0) {
+        sql+=" c.montantrealise BETWEEN "+ min +" AND "+max;
+    }else if (max > 0) {
+        sql +=" c.montantrealise <"+ max;
+    }else if(min > 0) {
+    sql+=" c.montantrealise >"+ min;
+    }
+        sql = sql.replaceAll("(\\s+(and|WHERE)\\s*)$", "");
+        sql+=  " order by c.id";
+        return this.executerRequete(sql);
+}                         
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <div class="container_image">
+            <h5>Ajout/Modification/Supression</h5>
+            <div class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/CRUD1.png" />
+                    <figcaption>Image 1 : Selection des differentes valeurs pour l'ajout d'un enregistrement dans la base</figcaption>
+                </figure>         
+            </div>
+            <div class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/CRUD2.png" />
+                    <figcaption>Image 2 : Apres selection des differentes données et ajout du montant lors de l'appuie sue le bouton "AJOUTER" un mot de passe est demandé</figcaption>
+                </figure>         
+            </div>
+            <div class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/CRUD3.png" />
+                    <figcaption>Image 3 : Pour la modification et la supression même systeme que pour l'ajout sauf qu'il a un bouton recherche pour etre sur que l'enregistrement existe en base </figcaption>
+                </figure>  
+            </div>
+            <div class="image_code">
+                <figure>
+                    <img style="width:100%" class="materialboxed" src="contenu/images/CRUD3_1.png" />
+                    <figcaption>Image 4 : Message d'eereur quand l'enregistrement à modifier ou supprimer n'existe pas en base </figcaption>
+                </figure>
+                
+                
+            </div>
+        </div>
+        Code pour l'ajout d'un enregistrement
+        <pre id="code_rech">
+            <code class="language-java">
+public String addToDatabase(String e,String d_r, String i_f, int codechapitre,int codearticle,  int codepresentation,String o_r,float montant) {
+    String sql= "INSERT INTO COMPTE_ADM_TLS1(ordre_reel,depenses_recettes,investissement_fonctionnement,codechapitre,codearticle,codepresentationcroisee,ENTITEFINANCIEREPROGRAMME,"
+        + "montantrealise)  VALUES('"+o_r+"', '"+d_r+"', '"+i_f+"',"+codechapitre+","+codearticle+","+codepresentation+",'"+e+"',"+montant+")";
+    return this.requeteUpdate(sql);
+}
+            </code>
+        </pre>
+        Code pour la modification d'un enregistrement
+        <pre id="code_rech">
+            <code class="language-java">
+public String deleteFromDatabase(int id) {
+    String sql= "DELETE FROM COMPTE_ADM_TLS1 WHERE id="+id;
+    return this.requeteUpdate(sql);
+}
+            </code>
+        </pre>
+        Code pour la supression d'un enregistrement
+        <pre id="code_rech">
+            <code class="language-java">
+public String UpdateEnrDatabase(int id,String e,String d_r, String i_f, int codechapitre,int codearticle,  int codepresentation,String o_r,float montant) {
+    //connexionDatabase();
+    String sql= "UPDATE COMPTE_ADM_TLS1"
+            + " SET ordre_reel= '"+o_r+"'"
+            + " ,depenses_recettes= '"+d_r+"'"
+            + " ,investissement_fonctionnement= '"+i_f+"'"
+            + " ,codechapitre= "+codechapitre
+            + " ,codearticle= "+codearticle
+            + " ,codepresentationcroisee= "+codepresentation
+            + " ,ENTITEFINANCIEREPROGRAMME= '"+e+"'"
+            + " ,montantrealise= "+montant
+            + " WHERE id="+id;
+    return this.requeteUpdate(sql);
+}
+            </code>
+        </pre>
     </section>
 
+    <footer class="page-footer">
+        <div class="">
+          <div class="container">
+            © 2020 Copyright 
+            <a class="grey-text text-lighten-3 right p5" href="https://github.com/Huze-UPS">Damien</a>
+            <a class="grey-text text-lighten-3 right p5" href="https://github.com/supersieu">Dang</a> 
+            <a class="grey-text text-lighten-3 right p5" href="https://github.com/likou31">Matthieu</a>
+            <a class="grey-text text-lighten-3 right p5" href="https://github.com/stanBPS">Stanley</a>
+          </div>
+        </div>
+      </footer>
 
     <!-- minified Jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
+    $('.materialboxed').materialbox();
     $('#example').DataTable( {
         "ajax": "contenu/convertcsv.json",
         "columns": [
